@@ -1,6 +1,6 @@
 # AlphaQuantum.SellDataToAI
 
-.NET client for the Data Asset Score API. It scores a company website from 0 to 100 for the data AI buyers want, and tells you the company's grade, status, systems of record and web history.
+.NET client for the AI Data Value Score API. It scores a company website from 0 to 100 for the data AI buyers want, and tells you the company's grade, status, systems of record and web history.
 
 ```bash
 dotnet add package AlphaQuantum.SellDataToAI
@@ -12,7 +12,7 @@ using SellDataToAI;
 
 Targets .NET 8. Uses `HttpClient` and `System.Text.Json` from the framework, no other packages. Async all the way, with `CancellationToken` on every call.
 
-The API is part of selldatatoai.com, a site about [selling data to AI companies](https://www.selldatatoai.com/). It scores against an index of 102 million domains, 99.99% of the active internet, with each domain's history.
+The API is part of selldatatoai.com, a site about [selling data to AI companies](https://www.selldatatoai.com/). It scores against an index of 120 million domains, 99.99% of the active internet, with each domain's history.
 
 ## Quick start
 
@@ -248,7 +248,7 @@ There is no free plan and no trial. The demo on the website allows 5 checks a da
 
 ### What is AlphaQuantum.SellDataToAI?
 
-AlphaQuantum.SellDataToAI is the .NET client for the Data Asset Score API at selldatatoai.com. It scores company domains from 0 to 100 for the data AI buyers want, singly or in batches of 100, and returns typed results.
+AlphaQuantum.SellDataToAI is the .NET client for the AI Data Value Score API at selldatatoai.com. It scores company domains from 0 to 100 for the data AI buyers want, singly or in batches of 100, and returns typed results.
 
 ### Which frameworks are supported?
 

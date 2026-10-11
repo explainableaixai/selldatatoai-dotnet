@@ -83,10 +83,10 @@ public sealed class SellDataToAIException : Exception
     }
 }
 
-/// <summary>Client for the Data Asset Score API at https://www.selldatatoai.com/api/ .</summary>
+/// <summary>Client for the AI Data Value Score API at https://www.selldatatoai.com/api/ .</summary>
 public sealed class DataAssetScoreClient : IDisposable
 {
-    public const string Version = "1.0.0";
+    public const string Version = "1.0.1";
     public const string DefaultBaseUrl = "https://www.selldatatoai.com/api/v1";
     public const int BatchMax = 100;
 
